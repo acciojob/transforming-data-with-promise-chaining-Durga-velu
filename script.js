@@ -53,7 +53,7 @@ document.getElementById("output").innerText +=
 
 	setTimeout(()=>{
 		
-       resolve(division+2);
+       resolve(division+10);
 	},6000);
 });
 
