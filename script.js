@@ -19,7 +19,7 @@ let InitialPromise=new Promise((resolve,reject)=>{
 	setTimeout(()=>{
 		
        resolve(num*2);
-	},3000);
+	},1000);
 });
 
 }).then((multiply)=>{
@@ -31,7 +31,7 @@ let InitialPromise=new Promise((resolve,reject)=>{
 	setTimeout(()=>{
 	
        resolve(multiply-3);
-	},4000);
+	},1000);
 });
 
 }).then((sub)=>{
@@ -43,7 +43,7 @@ document.getElementById("output").innerText +=
 	setTimeout(()=>{
 	
        resolve(sub/2);
-	},5000);
+	},1000);
 });
 }).then((division)=>{
 
@@ -54,7 +54,7 @@ document.getElementById("output").innerText +=
 	setTimeout(()=>{
 		
        resolve(division+10);
-	},6000);
+	},1000);
 });
 
 }).then((add)=>{
