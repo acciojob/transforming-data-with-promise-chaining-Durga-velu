@@ -4,18 +4,14 @@ let number=document.getElementById("ip")
 
 function arith(){
 
-
 let InitialPromise=new Promise((resolve,reject)=>{
-
 	setTimeout(()=>{
        resolve(Number(number.value));
 	},2000);
 });
-	
 	InitialPromise.then((num)=>{
 	document.getElementById("output").innerText= `Result: ${num}`; 
 	return new Promise((resolve)=>{
-
 	setTimeout(()=>{
 		
        resolve(num*2);
@@ -60,7 +56,7 @@ document.getElementById("output").innerText +=
 }).then((add)=>{
 
 	document.getElementById("output").innerText +=
-		`\nResult: ${add}`; 
+		`\nFinal Result: ${add}`; 
 	
 });
 
