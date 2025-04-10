@@ -25,7 +25,7 @@ let InitialPromise=new Promise((resolve,reject)=>{
 }).then((multiply)=>{
 
 	document.getElementById("output").innerText +=
-		`\nResult:${multiply}`; 
+		`\nResult: ${multiply}`; 
 	return new Promise((resolve)=>{
 
 	setTimeout(()=>{
@@ -37,7 +37,7 @@ let InitialPromise=new Promise((resolve,reject)=>{
 }).then((sub)=>{
 
 document.getElementById("output").innerText +=
-		`\nResult:${sub}`; 
+		`\nResult: ${sub}`; 
 	return new Promise((resolve)=>{
 
 	setTimeout(()=>{
@@ -48,7 +48,7 @@ document.getElementById("output").innerText +=
 }).then((division)=>{
 
 	document.getElementById("output").innerText +=
-		`\nResult:${division}`; 
+		`\nResult: ${division}`; 
 	return new Promise((resolve,reject)=>{
 
 	setTimeout(()=>{
@@ -60,7 +60,7 @@ document.getElementById("output").innerText +=
 }).then((add)=>{
 
 	document.getElementById("output").innerText +=
-		`\nResult:${add}`; 
+		`\nResult: ${add}`; 
 	
 });
 
